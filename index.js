@@ -20,8 +20,8 @@ app.get('/check-content', (req, res) => {
   console.log('check-content', req.query);
   res.send({
     conten_id:null,
-    content:null,
-    content_:`<div class=" grid  grid-cols-3 gap-2"> 
+    content_:null,
+    content:`<div class=" grid  grid-cols-3 gap-2"> 
     <div class="lg:col-span-1"> 
     
         <video class="w-full h-full object-cover" autoplay loop>
